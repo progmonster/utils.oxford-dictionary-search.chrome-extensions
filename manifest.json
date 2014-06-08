@@ -1,0 +1,23 @@
+{
+	"name": "Oxford's dictionary search",
+	"description": "Searches selected keyword in online Oxford's dictionary",
+	"version": "0.1",
+	"permissions": [
+		"contextMenus",
+		"tabs"
+	],
+	"icons": {
+		"54": "images/odo-mini.png",
+		"16": "images/odo-bitty.png"
+	},
+	"background": {
+		"scripts": ["app.js"]
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
+	"manifest_version": 2
+}
