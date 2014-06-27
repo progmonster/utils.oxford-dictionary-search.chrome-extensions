@@ -1,14 +1,15 @@
 {
-	"name": "Oxford's dictionary search",
-	"description": "Searches selected keyword in online Oxford's dictionary",
+	"name": "Oxford Dictionary Search",
+	"description": "Searches selected words in the Online Oxford Dictionary",
 	"version": "0.1",
 	"permissions": [
 		"contextMenus",
 		"tabs"
 	],
 	"icons": {
-		"54": "images/odo-mini.png",
-		"16": "images/odo-bitty.png"
+		"128": "images/oxford128.png",
+		"54": "images/oxford54.png",
+		"16": "images/oxford16.png"
 	},
 	"background": {
 		"scripts": ["app.js"]
