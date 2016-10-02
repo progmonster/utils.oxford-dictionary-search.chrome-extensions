@@ -5,7 +5,7 @@ function run() {
 
 			console.log("phrase: " + phrase);
 
-			var queryUrl = "https://en.oxforddictionaries.com/definition/" + phrase;
+			var queryUrl = "https://en.oxforddictionaries.com/definition/us/" + phrase;
 
 			chrome.tabs.create({url: queryUrl});
 		});
