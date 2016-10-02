@@ -5,7 +5,7 @@ function run() {
 
 			console.log("phrase: " + phrase);
 
-			var queryUrl = "http://www.oxforddictionaries.com/search/all/?direct=1&multi=1&q=" + phrase;
+			var queryUrl = "https://en.oxforddictionaries.com/definition/" + phrase;
 
 			chrome.tabs.create({url: queryUrl});
 		});
