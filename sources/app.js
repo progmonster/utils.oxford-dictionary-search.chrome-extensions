@@ -12,6 +12,4 @@ function run() {
 	});
 }
 
-var id = chrome.contextMenus.create({"title": "Search in Oxford Dictionary", "contexts": ["selection"], "onclick": run});
-
-// todo deploy to web store
+chrome.contextMenus.create({"title": "Search in Oxford Dictionary", "contexts": ["selection"], "onclick": run});
