@@ -1,2 +1,2 @@
 #!/bin/bash
-zip -r  ../oxford-dictionary-search.zip . -x "*.git*" pack
+pushd `pwd`/sources && mkdir -p ../distr && rm -rf ../distr/* && zip -r ../distr/oxford-dictionary-search.zip .; popd
